@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nome": "dark souls 2",
+    "prezzo": 30,
+    "tags": ["Fantasy", "Action"],
+    "piattaforma": "PC",
+    "dataUscita": "2012-06-17T22:00:00.000Z",
+    "sviluppatore": "Fromsoftware"
+  },
+  {
+    "id": 2,
+    "nome": "animal crossing",
+    "prezzo": 80,
+    "tags": ["Chill", "Simulator"],
+    "piattaforma": "PC",
+    "dataUscita": "2012-06-17T22:00:00.000Z",
+    "sviluppatore": "Nintendo"
+  },
+  {
+    "id": 3,
+    "nome": "god of war",
+    "prezzo": 60,
+    "tags": ["Fantasy", "Action"],
+    "piattaforma": "PC",
+    "dataUscita": "2012-06-17T22:00:00.000Z",
+    "sviluppatore": "BadCompany"
+  },
+  {
+    "nome": "wuthering waves",
+    "prezzo": 0,
+    "tags": ["Fantasy", "Action"],
+    "piattaforma": "PC",
+    "dataUscita": "2022-06-17T22:00:00.000Z",
+    "sviluppatore": "Kuro Games",
+    "id": 4
+  }
+]

@@ -1,0 +1,43 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #1b2838 0%, #2a475e 50%, #1b2838 100%);
+  overflow-x: hidden;
+}
+.header {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.397);
+}
+.backBtnContainer {
+  text-align: center;
+}
+#gameDisplay {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.397);
+  padding: 20px;
+}
+#backBtn {
+  width: 80px;
+  height: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  color: white;
+  background-color: #1b2838;
+  border-radius: 20px;
+  border: 0;
+  transition: 0.2s;
+}
+#backBtn:hover {
+  width: 90px;
+  height: 45px;
+  cursor: pointer;
+}
+#backBtn:active {
+  width: 80px;
+  height: 40px;
+}

@@ -1,0 +1,70 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #1b2838 0%, #2a475e 50%, #1b2838 100%);
+  overflow-x: hidden;
+}
+.header {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.397);
+}
+.buttonDiv {
+  text-align: center;
+}
+.headerCell {
+  background-color: #1b2838;
+}
+.elementCell {
+  justify-content: center;
+  align-items: center;
+  background-color: #2a475e;
+  border-radius: 10px;
+  padding: 7px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.gamesStyle {
+  background-color: #1b2838;
+  margin: auto;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr 1fr;
+  border: 3px solid #1b2838;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  gap: 10px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(199, 196, 196);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.397);
+}
+
+#gamesDiv {
+  margin-top: 30px;
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+
+#button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #1b2838;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.1s;
+}
+#button:hover {
+  cursor: pointer;
+}
+#button:active {
+  width: 90px;
+  height: 35px;
+}
